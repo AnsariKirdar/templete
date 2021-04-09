@@ -1,0 +1,14 @@
+@font-face {
+    src: url('font/Creattion Demo.otf');
+    font-family: creattion;
+}
+
+* {
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+
+.sig {
+    font-family: creattion;
+}

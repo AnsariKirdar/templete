@@ -1,0 +1,14 @@
+{
+    "name": "Vision Technology Co In",
+    "short_name": "Vision Technology",
+    "description": "Vision Technology, the best creative agency in Mumbai For effective marketing and design solutions. Boost business with our digital marketing Plans. ",
+    "icons": [{
+        "src": "img/logo/favicon.ico",
+        "sizes": "32x32",
+        "type": "image/png"
+    }],
+    "start_url": "/index.php",
+    "display": "fullscreen",
+    "theme_color": "#388eff",
+    "background_color": "#388eff"
+}
