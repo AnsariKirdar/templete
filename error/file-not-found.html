@@ -1,1 +1,92 @@
-404
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Error 404</title>
+
+
+    <style>
+        * {
+            margin: 0px;
+            padding: 0px;
+        }
+        
+        body {
+            background-color: rgba(11, 94, 255, 1);
+            min-height: 100vh;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+        }
+        
+        .main_body {
+            color: #fff;
+            text-align: center;
+        }
+        
+        .main_body h1 {
+            font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+            font-weight: bold;
+            font-size: 250px;
+        }
+        
+        .main_body h3 {
+            font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+            font-weight: bold;
+            font-size: 40px;
+            margin-bottom: 15px;
+        }
+        
+        .main_body img {
+            width: 450px;
+        }
+        
+        @media screen and (max-width: 420px) {
+            .main_body h1 {
+                font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+                font-weight: bold;
+                font-size: 170px;
+            }
+            .main_body h3 {
+                font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+                font-weight: bold;
+                font-size: 25px;
+                margin-bottom: 15px;
+            }
+            .main_body img {
+                width: 80%;
+            }
+        }
+        
+        @media screen and (max-width: 320px) {
+            .main_body h1 {
+                font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+                font-weight: bold;
+                font-size: 160px;
+            }
+            .main_body h3 {
+                font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+                font-weight: bold;
+                font-size: 20px;
+                margin-bottom: 15px;
+            }
+            .main_body img {
+                width: 80%;
+            }
+        }
+    </style>
+
+</head>
+
+<body>
+    <div class="main_body">
+        <h1>404</h1>
+        <h3>Opps.... Page not Found</h3>
+        <img src="./../img/errorFile/file-not-found.png" alt="bad request">
+    </div>
+</body>
+
+</html>
