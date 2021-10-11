@@ -1,9 +1,9 @@
 <?php
-$servername = "localhost";
-$username = "root";
-$password = "";
-$database = "";
-$conn =  mysqli_connect($servername, $username, $password, $database);
+$SERVERNAME = "localhost";
+$USERNAME = "root";
+$PASSWORD = "";
+$DATABASE = "";
+$conn =  mysqli_connect($SERVERNAME, $USERNAME, $PASSWORD, $DATABASE);
 $cURL = (isset($_SERVER['HTTPS']) && $_SERVER['HTTPS'] === 'on' ? "https" : "http") . "://$_SERVER[HTTP_HOST]$_SERVER[REQUEST_URI]";
 $ip = $_SERVER['REMOTE_ADDR'];
 if ($ip = '::1' || $ip = '127:0:0:1') {
@@ -21,17 +21,16 @@ curl_setopt_array($curl, array(
   CURLOPT_HTTP_VERSION => CURL_HTTP_VERSION_1_1,
   CURLOPT_CUSTOMREQUEST => 'GET',
 ));
-$response = curl_exec($curl);
+$RESPONSE = curl_exec($curl);
 curl_close($curl);
-$response = unserialize($response);
-$timezone = $response['timezone'];
-$country =  $response['country'];
-$country =  $response['country'];
-$city =  $response['city'];
-date_default_timezone_set($timezone);
-$timeStamp = date('Y-m-d:H:i:s');
-
-
+$RESPONSE = unserialize($RESPONSE);
+$TIMEZONE = $RESPONSE['timezone'];
+$COUNTRY =  $RESPONSE['country'];
+$COUNTRY =  $RESPONSE['country'];
+$CITY =  $RESPONSE['city'];
+date_default_timezone_set($TIMEZONE);
+$TIME_STAMP = date('Y-m-d:H:i:s');
+$URL = (isset($_SERVER['HTTPS']) && $_SERVER['HTTPS'] === 'on' ? "https" : "http") . "://$_SERVER[HTTP_HOST]$_SERVER[REQUEST_URI]";
 function ENC($string, $action = 'encrypt')
 {
   $encrypt_method = "AES-256-CBC";
@@ -42,7 +41,7 @@ function ENC($string, $action = 'encrypt')
   if ($action == 'encrypt') {
     $output = openssl_encrypt($string, $encrypt_method, $key, 0, $iv);
     $output = base64_encode($output);
-  } else if ($action == 'decrypt') {
+  } else if ($action == 'dec') {
     $output = openssl_decrypt(base64_decode($string), $encrypt_method, $key, 0, $iv);
   }
   return $output;
