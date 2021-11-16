@@ -46,7 +46,7 @@ include './../inc/config.php';
 <body>
   <?php include  '../inc/nav.php'; ?>
   <h1>Hello, world!a </h1>
-  <?php echo $URL; ?>
+
   <?php include '../inc/footer.php'; ?>
   <script src="../js/bootstrap.bundle.min.js"></script>
   <script src="../js/fontawsome.js"></script>
