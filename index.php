@@ -1,30 +1,30 @@
 <?php
-include 'inc/config.php';
-include 'dbh/conn.php';
+include dirname(__FILE__) . '/inc/config.php';
+include dirname(__FILE__) . '/dbh/conn.php';
 ?>
 <!doctype html>
 <html lang="en">
 
 <head>
-  <?php include './inc/hedaerlink.php'; ?>
+  <?php include dirname(__FILE__) . "/inc/hedaerlink.php"; ?>
   <meta name="robots" content="index, follow">
   <meta http-equiv="Content-Type" content="text/html; charset=utf-8">
   <link rel="manifest" href="visiontechnology.webmanifest">
-  <link rel="shortcut icon" type="image/x-icon" href="./img/logo/favicon.ico">
-  <link href="./css/bootstrap.min.css" rel="stylesheet">
-  <link href="./css/common-variable.css" rel="stylesheet">
-  <link href="./css/style.css" rel="stylesheet">
-  <title>Vision Technology</title>
+  <link rel="shortcut icon" type="image/x-icon" href="<?php echo $BASE_URL; ?>/img/logo/favicon.ico">
+  <link href="<?php echo $BASE_URL; ?>/css/bootstrap.min.css" rel="stylesheet">
+  <link href="<?php echo $BASE_URL; ?>/css/common-variable.css" rel="stylesheet">
+  <link href="<?php echo $BASE_URL; ?>/css/style.css" rel="stylesheet">
+
 </head>
 
 <body>
-  <?php include  'inc/nav.php'; ?>
+  <?php include dirname(__FILE__) . '/inc/nav.php'; ?>
   <h1>Hello, world!</h1>
 
   <?php include 'inc/footer.php'; ?>
-  <script src="./js/bootstrap.bundle.min.js"></script>
-  <script src="./js/fontawsome.js"></script>
-  <script src="./js/main.js"></script>
+  <script src="<?php echo $BASE_URL ?>/js/bootstrap.bundle.min.js"></script>
+  <script src="<?php echo $BASE_URL ?>/js/fontawsome.js"></script>
+  <script src="<?php echo $BASE_URL ?>/js/main.js"></script>
 </body>
 
 </html>

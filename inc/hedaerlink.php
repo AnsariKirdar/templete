@@ -21,9 +21,13 @@
 <!-- Open Graph / Facebook -->
 <meta property="og:type" content="<?php echo  $OG_TYPE; ?>">
 <meta property="og:url" content="<?php echo $URL; ?>">
-<meta property="og:title" content="<?php echo  $TITLE; ?>">
+<meta property="og:title" content="<?php echo  $OG_TITLE; ?>">
 <meta property="og:description" content="<?php echo  $META_DESCRIPTION; ?>">
-<meta property="og:image" content="../assets/meta-tags-16a33a6a8531e519cc0936fbba0ad904e52d35f34a46c97a2c9f6f7dd7d336f2.png">
+<meta property="og:image" content="<?php echo $OG_IMAGE; ?>">
+<meta property="og:image:width" content="<?php echo $OG_IMAGE_WIDTH; ?>">
+<meta property="og:image:height" content="<?php echo $OG_IMAGE_HEIGHT; ?>">
+<meta property="og:image:alt" content="<?php echo $OG_IMAGE_ALT; ?>">
+
 <meta property="profile:first_name" content="Kirdar">
 <meta property="profile:last_name" content="Ansari">
 <meta property="business:contact_data:country_name" content="India">
@@ -37,7 +41,7 @@
 <meta property="twitter:url" content="<?php echo  $URL; ?>">
 <meta property="twitter:title" content="<?php echo  $TITLE; ?>">
 <meta property="twitter:description" content="<?php echo  $META_DESCRIPTION; ?>">
-<meta property="twitter:image" content="../assets/meta-tags-16a33a6a8531e519cc0936fbba0ad904e52d35f34a46c97a2c9f6f7dd7d336f2.png">
+<meta property="twitter:image" content="<?php echo $OG_IMAGE; ?>">
 <meta property="twitter:image:alt" content="<?php echo  $META_DESCRIPTION; ?>">
 <meta property="twitter:creator" content="@kirdaransari">
 <meta property="twitter:site" content="@kirdaransari">
