@@ -19,9 +19,9 @@ include dirname(__FILE__) . '/dbh/conn.php';
 
 <body>
   <?php include dirname(__FILE__) . '/inc/nav.php'; ?>
-  <h1>Hello, world!</h1>
+  <h1 class="fw-bolder sig">Hello, world!</h1>
 
-  <?php include 'inc/footer.php'; ?>
+  <?php include dirname(__FILE__) . '/inc/footer.php'; ?>
   <script src="<?php echo $BASE_URL ?>/js/bootstrap.bundle.min.js"></script>
   <script src="<?php echo $BASE_URL ?>/js/fontawsome.js"></script>
   <script src="<?php echo $BASE_URL ?>/js/main.js"></script>

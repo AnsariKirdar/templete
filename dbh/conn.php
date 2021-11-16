@@ -29,7 +29,8 @@ $COUNTRY =  $RESPONSE['country'];
 $COUNTRY =  $RESPONSE['country'];
 $CITY =  $RESPONSE['city'];
 date_default_timezone_set($TIMEZONE);
-$TIME_STAMP = date('Y-m-d:H:i:s');
+$timestamp = date("Y-m-d H:i:s");
+
 $URL = (isset($_SERVER['HTTPS']) && $_SERVER['HTTPS'] === 'on' ? "https" : "http") . "://$_SERVER[HTTP_HOST]$_SERVER[REQUEST_URI]";
 function ENC($string, $action = 'encrypt')
 {
@@ -45,4 +46,8 @@ function ENC($string, $action = 'encrypt')
     $output = openssl_decrypt(base64_decode($string), $encrypt_method, $key, 0, $iv);
   }
   return $output;
+}
+
+if (session_status() == PHP_SESSION_NONE) {
+  session_start();
 }

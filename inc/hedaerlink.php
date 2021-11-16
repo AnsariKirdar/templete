@@ -56,3 +56,5 @@
 <meta property="twitter:app:id:ipad" content="">
 <meta property="twitter:app:id:googleplay" content="">
 <meta property="twitter:app:country" content="IN">
+
+<title><?php echo  $TITLE; ?></title>
