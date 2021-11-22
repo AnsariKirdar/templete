@@ -1,19 +1,10 @@
-@font-face {
-    src: url('./font/Creattion Demo.otf');
-        font-family: sig;
-}
-
 * {
     margin: 0px;
     padding: 0px;
     box-sizing: border-box;
-    font-family: BAHNSCHRIFT;    
+    font-family: BAHNSCHRIFT;
 }
 
 body {
     position: relative;
-}
-
-.sig {
-    font-family: creattion;
 }
