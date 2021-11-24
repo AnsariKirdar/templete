@@ -6,7 +6,12 @@ include dirname(__FILE__) . '/dbh/conn.php';
 <html lang="en">
 
 <head>
-  <?php include dirname(__FILE__) . "/inc/hedaerlink.php"; ?>
+
+  <?php
+  $TITLE = "About Us";
+  
+  include dirname(__FILE__) . "/inc/hedaerlink.php";
+  ?>
   <meta name="robots" content="index, follow">
   <meta http-equiv="Content-Type" content="text/html; charset=utf-8">
   <link rel="manifest" href="visiontechnology.webmanifest">
@@ -18,9 +23,8 @@ include dirname(__FILE__) . '/dbh/conn.php';
 </head>
 
 <body>
-  <?php   $Home_page  = 'active'; include dirname(__FILE__) . '/inc/nav.php'; ?>
+  <?php   $About_page  = 'active'; include dirname(__FILE__) . '/inc/nav.php'; ?>
 
-  
   <div class="container">
     <div class="row g-4 py-5 align-items-center">
       <div class="col-12"><h1 class="fw-bolder sig">Hello, world!</h1></div>
