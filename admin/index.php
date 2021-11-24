@@ -48,6 +48,7 @@ include './../dbh/conn.php';
 
 <body>
   <?php include './inc/nav.php'; ?>
+  <?php include dirname(__FILE__) . '/admin/inc/nav.php'; ?>
   <div class="container">
     Admin
   </div>

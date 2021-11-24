@@ -19,19 +19,19 @@ include dirname(__FILE__) . '/dbh/conn.php';
   <link href="<?php echo $BASE_URL; ?>/css/common-variable.css" rel="stylesheet">
   <link href="<?php echo $BASE_URL; ?>/css/style.css" rel="stylesheet">
   <style>
-    .loginBox {
-      height: 100vh;
-      background-image: url("./img/bg/logindoddle.jpeg");
-      background-position: center;
-      background-size: cover;
-      background-blend-mode: darken;
-    }
+  .loginBox {
+    height: 100vh;
+    background-image: url("./img/bg/logindoddle.jpeg");
+    background-position: center;
+    background-size: cover;
+    background-blend-mode: darken;
+  }
   </style>
 </head>
 
 <body>
   <?php
-  $TITLE = "User Log in";
+  $Login_page = "active";
   include dirname(__FILE__) . '/inc/nav.php';
   ?>
   <div class="loginBox bg-primary">
@@ -61,7 +61,8 @@ include dirname(__FILE__) . '/dbh/conn.php';
               Forget Passwod ? <a href="#" class="text-primary text-decoration-none">Click Here</a>
             </p>
             <hr class="bg-primary" style="height:3px;">
-            <p class="text-center"><img src="<?php echo $BASE_URL; ?>/img/bg/move.svg" class="w-75 mx-auto" alt="Login way Image"></p>
+            <p class="text-center"><img src="<?php echo $BASE_URL; ?>/img/bg/move.svg" class="w-75 mx-auto"
+                alt="Login way Image"></p>
           </div>
         </form>
       </div>
