@@ -1,4 +1,4 @@
-<footer class="bg-white mt-3" style="box-shadow: -0px -3px 5px #EBEBEB;">
+<footer class="bg-white" style="box-shadow: -0 .5rem -1rem rgba(0,0,0,.15)">
   <p class="text-center small text-dark mb-0">
     <b>© <?php echo  date('Y'); ?> . All rights reserved.</b> |
     Design by <a href="http://visiontechnology.co.in/" class="text-decoration-none text-primary fw-bold" target="_blank"

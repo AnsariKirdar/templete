@@ -1,4 +1,4 @@
-<nav class="navbar navbar-expand-lg navbar-dark bg-primary py-1">
+<nav class="navbar navbar-expand-lg navbar-dark bg-primary py-1 shadow">
   <div class="container-fluid">
     <a class="navbar-brand fw-bold" href="<?php echo  $BASE_URL; ?>/index.php">Navbar</a>
     <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent"
@@ -33,7 +33,7 @@
           <a class="nav-link <?php echo $About_page; ?>" href="<?php echo  $BASE_URL; ?>/About Us.php">About us</a>
         </li>
         <li class="nav-item">
-          <a class="nav-link <?php echo $Contact_page; ?>" href="<?php echo  $BASE_URL; ?>/Contcat Us.php">Contact
+          <a class="nav-link <?php echo $Contact_page; ?>" href="<?php echo  $BASE_URL; ?>/contact.php">Contact
             us</a>
         </li>
       </ul>

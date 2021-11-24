@@ -2,7 +2,7 @@
 $SERVERNAME = "localhost";
 $USERNAME = "root";
 $PASSWORD = "";
-$DATABASE = "visiontech";
+$DATABASE = "details";
 $conn =  mysqli_connect($SERVERNAME, $USERNAME, $PASSWORD, $DATABASE);
 $cURL = (isset($_SERVER['HTTPS']) && $_SERVER['HTTPS'] === 'on' ? "https" : "http") . "://$_SERVER[HTTP_HOST]$_SERVER[REQUEST_URI]";
 $ip = $_SERVER['REMOTE_ADDR'];

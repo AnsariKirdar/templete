@@ -1,7 +1,8 @@
 <nav class="navbar navbar-expand-lg navbar-dark bg-primary py-2 small">
-  <div class="container-fluid">
+  <div class="container">
     <a class="navbar-brand fw-bold" href="#">Navbar</a>
-    <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+    <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent"
+      aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
       <span class="navbar-toggler-icon"></span>
     </button>
 
@@ -14,7 +15,8 @@
           <a class="nav-link" href="#">Link</a>
         </li>
         <li class="nav-item dropdown">
-          <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+          <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown"
+            aria-expanded="false">
             Dropdown
           </a>
           <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
@@ -31,7 +33,8 @@
         </li>
       </ul>
       <form class="d-flex">
-        <a href="./logout.php" class="btn btn-danger btn-sm rounded-pill px-4 border-0 fw-bold"><i class=" fad fa-sign-out-alt "></i> Logout</a>
+        <a href="./logout.php" class="btn btn-danger btn-sm rounded-pill px-4 border-0 fw-bold"><i
+            class=" fad fa-sign-out-alt "></i> Logout</a>
       </form>
     </div>
   </div>
