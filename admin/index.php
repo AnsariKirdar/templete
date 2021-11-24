@@ -1,4 +1,5 @@
 <?php
+include './../inc/config.php';
 include './inc/config.php';
 include './../dbh/conn.php';
 ?>
