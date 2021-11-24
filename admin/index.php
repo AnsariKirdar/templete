@@ -24,7 +24,8 @@ include './../dbh/conn.php';
   <meta property="og:url" content="<?php echo $URL; ?>">
   <meta property="og:title" content="<?php echo  $TITLE; ?>">
   <meta property="og:description" content="<?php echo  $META_DESCRIPTION; ?>">
-  <meta property="og:image" content="../assets/meta-tags-16a33a6a8531e519cc0936fbba0ad904e52d35f34a46c97a2c9f6f7dd7d336f2.png">
+  <meta property="og:image"
+    content="../assets/meta-tags-16a33a6a8531e519cc0936fbba0ad904e52d35f34a46c97a2c9f6f7dd7d336f2.png">
   <meta property="profile:first_name" content="Kirdar">
   <meta property="profile:last_name" content="Ansari">
   <meta property="business:contact_data:country_name" content="India">
@@ -33,7 +34,8 @@ include './../dbh/conn.php';
   <meta property="twitter:url" content="<?php echo  $URL; ?>">
   <meta property="twitter:title" content="<?php echo  $TITLE; ?>">
   <meta property="twitter:description" content="<?php echo  $META_DESCRIPTION; ?>">
-  <meta property="twitter:image" content="../assets/meta-tags-16a33a6a8531e519cc0936fbba0ad904e52d35f34a46c97a2c9f6f7dd7d336f2.png">
+  <meta property="twitter:image"
+    content="../assets/meta-tags-16a33a6a8531e519cc0936fbba0ad904e52d35f34a46c97a2c9f6f7dd7d336f2.png">
 
 
   <link rel="manifest" href="visiontechnology.webmanifest">
