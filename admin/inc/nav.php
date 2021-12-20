@@ -1,6 +1,8 @@
-<nav class="navbar navbar-expand-lg navbar-dark bg-primary py-2 small">
+<nav class="navbar navbar-expand-lg navbar-dark bg-primary py-0 small">
   <div class="container">
-    <a class="navbar-brand fw-bold" href="#">Navbar</a>
+    <a class="navbar-brand fw-bold sig text-capitalize" style="font-size: xx-large;"
+      href="<?php echo  $BASE_URL; ?>/index.php">Vision
+      technology</a>
     <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent"
       aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
       <span class="navbar-toggler-icon"></span>
