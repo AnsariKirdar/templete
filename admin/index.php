@@ -48,12 +48,11 @@ include './../dbh/conn.php';
 </head>
 
 <body>
-  <?php include './inc/nav.php'; ?>
-  <?php include dirname(__FILE__) . '/admin/inc/nav.php'; ?>
+  <?php include dirname(__FILE__) . '/inc/nav.php'; ?>
   <div class="container">
     Admin
   </div>
-  <?php include './inc/footer.php'; ?>
+  <?php include dirname(__FILE__) . '/inc/footer.php'; ?>
   <script src="../js/bootstrap.bundle.min.js"></script>
   <script src="..//js/fontawsome.js"></script>
   <script src="../js/main.js"></script>
