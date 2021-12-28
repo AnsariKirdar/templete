@@ -47,11 +47,20 @@ include './../dbh/conn.php';
   <title>Vision Technology</title>
 </head>
 
+<style>
+body {
+  background-image: url("../img/bg/doodles-pattern.png");
+}
+</style>
+
 <body>
   <?php include dirname(__FILE__) . '/inc/nav.php'; ?>
-  <div class="container">
+  <div class="container py-5">
     Admin
   </div>
+  <h1 class="py-5">
+    admin
+  </h1>
   <?php include dirname(__FILE__) . '/inc/footer.php'; ?>
   <script src="../js/bootstrap.bundle.min.js"></script>
   <script src="..//js/fontawsome.js"></script>

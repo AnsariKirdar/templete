@@ -22,9 +22,6 @@ include dirname(__FILE__) . '/dbh/conn.php';
   .loginBox {
     height: 100vh;
     background-image: url("./img/bg/doodles-pattern.png");
-    /* background-position: center;
-    background-size: cover; */
-    /* background-blend-mode: darken; */
   }
   </style>
 </head>
