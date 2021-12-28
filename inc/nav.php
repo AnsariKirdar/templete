@@ -1,6 +1,6 @@
 <nav class="navbar navbar-expand-lg navbar-dark bg-primary py-0 shadow">
   <div class="container">
-    <a class="navbar-brand sig text-capitalize" style="font-size: x-large;"
+    <a class="navbar-brand sig  text-capitalize" style="font-size: xx-large;"
       href="<?php echo  $BASE_URL; ?>/index.php">Vision
       technology</a>
     <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent"
@@ -18,7 +18,8 @@
           <a class="nav-link" href="#">Link</a>
         </li>
         <li class="nav-item">
-          <a class="nav-link <?php echo $About_page; ?>" href="<?php echo  $BASE_URL; ?>/about.php">About us</a>
+          <a class="nav-link <?php echo $About_page; ?>" href="<?php echo  $BASE_URL; ?>/about.php">About
+            us</a>
         </li>
         <li class="nav-item">
           <a class="nav-link <?php echo $Contact_page; ?>" href="<?php echo  $BASE_URL; ?>/contact.php">Contact
