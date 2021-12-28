@@ -46,7 +46,6 @@ include './../dbh/conn.php';
   <link href="./css/style.css" rel="stylesheet">
   <title>Vision Technology</title>
 </head>
-
 <style>
 body {
   background-image: url("../img/bg/doodles-pattern.png");
@@ -58,9 +57,9 @@ body {
   <div class="container py-5">
     Admin
   </div>
-  <h1 class="py-5">
-    admin
-  </h1>
+  <div class="container py-5">
+    Admin
+  </div>
   <?php include dirname(__FILE__) . '/inc/footer.php'; ?>
   <script src="../js/bootstrap.bundle.min.js"></script>
   <script src="..//js/fontawsome.js"></script>
