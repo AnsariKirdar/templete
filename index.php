@@ -6,7 +6,7 @@ include dirname(__FILE__) . '/dbh/conn.php';
 <html lang="en">
 
 <head>
-  <?php include dirname(__FILE__) . "/inc/hedaerlink.php"; ?>
+  <?php include dirname(__FILE__) . "/inc/hedaerlink.php";?>
   <meta name="robots" content="index, follow">
   <meta http-equiv="Content-Type" content="text/html; charset=utf-8">
   <link rel="manifest" href="visiontechnology.webmanifest">
@@ -18,8 +18,8 @@ include dirname(__FILE__) . '/dbh/conn.php';
 </head>
 
 <body>
-  <?php $Home_page  = 'active';
-  include dirname(__FILE__) . '/inc/nav.php'; ?>
+  <?php $Home_page = 'active';
+include dirname(__FILE__) . '/inc/nav.php';?>
 
 
   <div class="container">
@@ -32,7 +32,7 @@ include dirname(__FILE__) . '/dbh/conn.php';
     </div>
   </div>
 
-  <?php include dirname(__FILE__) . '/inc/footer.php'; ?>
+  <?php include dirname(__FILE__) . '/inc/footer.php';?>
   <script src="<?php echo $BASE_URL; ?>/js/bootstrap.bundle.min.js"></script>
   <script src="<?php echo $BASE_URL; ?>/js/fontawsome.js"></script>
   <script src="<?php echo $BASE_URL; ?>/js/main.js"></script>
