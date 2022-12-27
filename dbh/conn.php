@@ -6,7 +6,7 @@ $DATABASE = "details";
 $conn =  mysqli_connect($SERVERNAME, $USERNAME, $PASSWORD, $DATABASE);
 $cURL = (isset($_SERVER['HTTPS']) && $_SERVER['HTTPS'] === 'on' ? "https" : "http") . "://$_SERVER[HTTP_HOST]$_SERVER[REQUEST_URI]";
 $ip = $_SERVER['REMOTE_ADDR'];
-if ($ip = '::1' || $ip = '127:0:0:1') {
+if ($ip == '::1' || $ip == '127:0:0:1') {
   $ip = '49.36.102.90';
 }
 $IPLocation = "http://ip-api.com/php/$ip?fields=status,message,country,countryCode,region,regionName,city,currency,timezone";
